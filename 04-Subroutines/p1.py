@@ -18,8 +18,3 @@ def f(card_number):
         mask += "*"
 
     return part_1 + mask + part_2
-
-masked_card = f("5290312400019022")
-
-if masked_card == "52**********9022":
-    print(True)

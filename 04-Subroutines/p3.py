@@ -28,8 +28,3 @@ def f(amount_to_pay):
         bilons += 1
 
     return bilons
-
-print(f(8))
-
-
-print(0 % 2)

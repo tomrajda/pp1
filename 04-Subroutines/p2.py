@@ -17,5 +17,3 @@ def f(binary_number):
         else:
             return False
     return True
-
-print(f("1311a10100"))

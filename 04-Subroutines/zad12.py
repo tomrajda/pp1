@@ -8,7 +8,7 @@ def sum(n):
     else:    
         return n + sum(n - 1)
 
-num = 10
+num = 3
 
 if num < 0:
    print("Enter a positive number")

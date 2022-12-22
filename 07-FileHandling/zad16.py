@@ -6,4 +6,5 @@
 with open("sample3.txt") as file:
     with open ("copy_sample3.txt", "w") as copy_file:
         for line in file:
-            copy_file.write(line)
+            for i in line:
+                print()
